@@ -1,2 +1,2 @@
 # CV
- https://KarinaSas.github.io/CV/CV
+ https://KarinaSas.github.io/README.md/cv.md
