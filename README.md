@@ -1,2 +1,2 @@
 # CV
- https://KarinaSas/README.md/cv.md
+ https://KarinaSas/README.md/cv
