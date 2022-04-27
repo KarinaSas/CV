@@ -38,4 +38,4 @@ int main(){
 	cout << endl << endl;
 	return 0; }
 ```
-### **My First Project on the GitHub: https://karinasas.github.io/cv/cv**
+### **My First Project on the GitHub: https://KarinaSas.github.io/cv/cv**
