@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Koulen&family=Work+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="wrap">
+    <header class="header">
+        <div class="container-header-container">
+            <nav class="nav">
+                <ul class="nav list">
+                             <a href="#aboutme" class="nav-link">About me</a>
+                             <a href="#skills" class="nav-link">Skills</a>
+                             <a href="#education" class="nav-link">Education</a>
+                             <a href="#projects" class="nav-link">Projects</a>
+                             <a href="#code" class="nav-link">Code</a>
+                </ul>
+            </nav>
+            <div class="toggle">
+                <div class="line 1"></div>
+                <div class="line 2"></div>
+                <div class="line 3"></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <main class="main">
+            <div class="container main-container">
+                <section class="section section-profile" id="profile">
+                    <img src="/assets/img/0ZjiOEcTTyF7BmIWDY-ArLm5Klx3gwOcFiMEaqMVBra77eUzOlsUKIEEaktdjVEZnbJN_CKxc_xcMWSHz7SLPVq2.jpg" alt="Karina" class="section-profile-logo">
+                    <div class="section-profile-title">
+                        <h1 class="section-title main-title">Karina Sas</h1>
+                        <h3 class="section-subtitle">Student at the Faculty of Mathematics and Information Technology, P.M. Masherov Vitebsk State University </h3>
+                    </div>
+                </section>
+                <section class="section" id="contacts">
+                    <h2 class="section-title">Contacts</h2>
+                    <ul class="section-list">
+                        <li class="section-item contacts-item">
+                            Vitebsk, Belarus
+                        </li>
+                        <li class="section-item contacts-item">
+                            Email: 
+                            <a href="mailto:sas.karina.2017@gmail.com" title="email">
+                                sas.karina.2017@gmail.com
+                            </a>
+                        </li>
+                      <li class="section-item contacts-item">
+                          Github: 
+                          <a href="https://github.com/KarinaSas" title="github">
+                              KarinaSas
+                          </a>
+                      </li>
+                      <li class="section-item contacts-item">
+                          Telegram: 
+                          <a href="https://web.telegram.org/k/" title="telegram">
+                              @a_n_d_r_e_e_v_na
+                          </a>
+                      </li>
+                    </ul>
+                </section>
+                <section class="section" id="aboutme">
+                    <h2 class="section-title">About me</h2>
+                    <p>
+                        In 2021 I entered Vitebsk State University, majoring in Information Resources Management. During the first year I studied such disciplines as "Computer graphics", where I studied methods of digital synthesis and visual content manipulation; "Algorithmization and programming", where I studied basics of C++ language; "Computer systems architecture", where I studied principles of organization of software and hardware tools and their characteristics, which determine functional capabilities of computer when solving corresponding classes of problems; "Discrete and higher mathematics", "Foreign language", "Management", "Organization economics", etc. Information Resources Management is a specialty, the subject area of which is the creation and transformation of information resources of organizations and public administration bodies, as well as the design and implementation of information systems in their activities. Upon graduation, I will be awarded the qualification of "Information Systems Manager-Economist". In addition, a graduate can work as a business analyst, database administrator, systems analyst, computer center economist and many others.
+                    </p>
+                </section>
+                <section class="section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <ul class="section-list"><li class="section-item">Web-development:<span> HTML5, C++</span></li>
+                    <li class="section-item">Version control:<span> GIT, Github</span></li>
+                    <li class="section-item">Graphics:<span>  Adobe Photoshop, Adobe Illustrator, Blender</span></li></ul>
+                </section>
+                <section class="section" id="code">
+                    <h2 class="section-title">Code</h2>
+                    <div class="blok1" id="code">
+                    <p1>Fill an array of 50 elements with odd numbers from 1 to 99. (Use the remainder-of-division operation to check for odd numbers.)
+                    <pre class="pre"><code>
+                            #include <iostream>
+                            #include <ctime>
+                            #include <cstdlib>
+                            using namespace std;
+                            int main(){
+                                const int SIZE = 50;
+                                int ourArr[SIZE] = {};
+                                srand(time(NULL));
+                                for (int i = 0; i < SIZE; ){
+                                    ourArr[i] = 1 + rand() % 100;
+                                    if (ourArr[i] % 2 != 0){
+                                        cout << ourArr[i] << " | ";
+                                        i++; }
+                                }
+                                cout << endl << endl;
+                                return 0; }
+                    </code></p1></div></pre></section>
+                    <section class="section" id="projects">
+                    <h2 class="section-title">Projects</h2>
+                    <ul class="section-list projects">
+                    <li class="section-item">
+                    <a href="https://github.com/KarinaSas/CV/blob/markdowm-cv/cv.md" target="_blanck">CV</a></li>
+            </ul></section>
+            <section class="section section-education" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>Vitebsk State University</p></section>
+            </div>
+        </main>
+    <footer class="footer">
+        <div class="container footer-container">
+        <div>© 2022 <a href="https://github.com/KarinaSas" class="github nav-link">KarinaSas</a></div></div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>
